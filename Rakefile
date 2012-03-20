@@ -7,8 +7,8 @@ begin
     gem.name = "caplock"
     gem.summary = %Q{Adds a lock file to Capistrano deployments}
     gem.description = %Q{Adds a lock file to Capistrano deployments to prevent concurrent deployments.}
-    gem.email = "Druwerd@gmail.com"
-    gem.homepage = "http://github.com/Druwerd/caplock"
+    gem.email = "ConfigurationManagement@gorillanation.com"
+    gem.homepage = "https://github.com/GorillaNation/gnm-caplock"
     gem.authors = ["Dru Ibarra"]
     gem.add_dependency "capistrano", '>= 2.9.0'
     gem.add_development_dependency "thoughtbot-shoulda", ">= 0"

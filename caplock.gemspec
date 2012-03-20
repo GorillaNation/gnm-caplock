@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = [%q{Dru Ibarra}]
-  s.date = %q{2012-03-15}
+  s.date = %q{2012-03-20}
   s.description = %q{Adds a lock file to Capistrano deployments to prevent concurrent deployments.}
-  s.email = %q{Druwerd@gmail.com}
+  s.email = %q{ConfigurationManagement@gorillanation.com}
   s.extra_rdoc_files = [
     "LICENSE",
     "README.rdoc"
@@ -27,7 +27,7 @@ Gem::Specification.new do |s|
     "test/helper.rb",
     "test/test_caplock.rb"
   ]
-  s.homepage = %q{http://github.com/Druwerd/caplock}
+  s.homepage = %q{https://github.com/GorillaNation/gnm-caplock}
   s.require_paths = [%q{lib}]
   s.rubygems_version = %q{1.8.6}
   s.summary = %q{Adds a lock file to Capistrano deployments}

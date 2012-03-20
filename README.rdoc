@@ -4,11 +4,11 @@ Adds a lock file to Capistrano deployments.
 
 == Installation
 
-   $ gem install caplock
+   $ gem install gnm-caplock
    
 Include in your Capfile
     require 'rubygems'
-    require 'caplock'
+    require 'gnm-caplock'
     
 == Usage
 

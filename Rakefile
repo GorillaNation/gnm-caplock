@@ -4,7 +4,7 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "caplock"
+    gem.name = "gnm-caplock"
     gem.summary = %Q{Adds a lock file to Capistrano deployments}
     gem.description = %Q{Adds a lock file to Capistrano deployments to prevent concurrent deployments.}
     gem.email = "ConfigurationManagement@gorillanation.com"
@@ -48,7 +48,7 @@ Rake::RDocTask.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ""
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "caplock #{version}"
+  rdoc.title = "gnm-caplock #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end

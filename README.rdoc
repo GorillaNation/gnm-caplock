@@ -1,4 +1,4 @@
-= caplock
+= gnm-caplock
 
 Adds a lock file to Capistrano deployments.
 

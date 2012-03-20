@@ -27,4 +27,4 @@ Define the name of your lock file in your deploy.rb
 
 == Copyright
 
-Copyright (c) 2012 Dru Ibarra. See LICENSE for details.
+Copyright (c) 2012 Gorilla Nation Media. See LICENSE for details.

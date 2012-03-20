@@ -22,7 +22,8 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
-    "caplock.gemspec",
+    "gnm-caplock.gemspec",
+    "lib/gnm-caplock.rb",
     "test/helper.rb",
     "test/test_caplock.rb"
   ]
